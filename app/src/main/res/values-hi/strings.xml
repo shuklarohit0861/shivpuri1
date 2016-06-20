@@ -5,5 +5,7 @@
     <string name="tanker_booking">टैंकर बुकिंग</string>
     <string name="community_hall_booking">सामुदायिक भवन बुकिंग</string>
     <string name="title_activity_contact_us">संपर्क करे</string>
+    <string name="address">पता </string>
+    <string name="add_value">पोलो मैदान के सामने, कोर्ट रोड, शिवपुरी मध्य प्रदेश पिन 473551</string>
 
 </resources>

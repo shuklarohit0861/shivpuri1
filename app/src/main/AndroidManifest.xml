@@ -30,6 +30,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mcshivpuri.shivpurimunicipalcouncil.MainActivity" />
         </activity>
+        <activity
+            android:name=".Complaint"
+            android:label="@string/title_activity_complaint"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mcshivpuri.shivpurimunicipalcouncil.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TankerBooking"
+            android:label="@string/title_activity_tanker_booking"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mcshivpuri.shivpurimunicipalcouncil.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CommunityHall"
+            android:label="@string/title_activity_community_hall"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mcshivpuri.shivpurimunicipalcouncil.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
