@@ -7,5 +7,8 @@
     <string name="title_activity_contact_us">संपर्क करे</string>
     <string name="address">पता </string>
     <string name="add_value">पोलो मैदान के सामने, कोर्ट रोड, शिवपुरी मध्य प्रदेश पिन 473551</string>
+    <string name="tanker_avaliable">टैंकर उपलब्ध होने पर ही भेजा जावेगा।</string>
+    <string name="justice_at_shivpuri">विवाद का न्याय क्षेत्र नगर पालिक निगम, शिवपुरी होगा।</string>
+
 
 </resources>

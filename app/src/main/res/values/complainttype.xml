@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="complaint_type">
+        <item>
+            General
+        </item>
+        <item>Corporators</item>
+        <item>SMS Employee</item>
+        <item>MLAS</item>
+        <item>MPS</item>
+    </string-array>
+
+
+    <string-array name="complaint_category">
+        <item>
+            Garbage and cleanliness
+        </item>
+        <item>
+            Mosquito and insects
+        </item>
+        <item>
+            Roads and footpath
+        </item>
+        <item>Water Supply</item>
+        <item>Drainage and Strom Drain
+        </item>
+        <item>Street Light</item>
+        <item>Dead and Stray Animals</item>
+        <item>Illeagal Construction and Encroachment</item>
+        <item>Public Toilet</item>
+        <item>24 Hours</item>
+        <item>Hospitals and Dispensaries</item>
+        <item>Complaints againts PMS staff</item>
+        <item>Property Tax</item>
+        <item>Other</item>
+    </string-array>
+</resources>

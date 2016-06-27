@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     Button complaintButton,tankerButton,communityButton ;
     Locale myLocale;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         complaintButton = (Button)findViewById(R.id.button_complaint);
         tankerButton = (Button)findViewById(R.id.button_tanker);
         communityButton = (Button)findViewById(R.id.button_hall);
+
+
+
+
 
         complaintButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,7 +109,8 @@ public class MainActivity extends AppCompatActivity {
     {
         if(menuItem.getItemId() == R.id.language)
         {
-            
+           Intent intent = new Intent(MainActivity.this,Settings.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(menuItem);
@@ -118,7 +125,10 @@ public class MainActivity extends AppCompatActivity {
         conf.locale = myLocale;
         res.updateConfiguration(conf, dm);
         Intent refresh = new Intent(this, MainActivity.class);
-        startActivity(refresh);
+         startActivity(refresh);
     }
+
+
+
 
 }
