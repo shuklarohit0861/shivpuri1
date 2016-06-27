@@ -2,8 +2,8 @@
     <string name="app_name" translatable="false">आपका शिवपुरी</string>
     <string name="title_activity_main" translatable="false">शिवपुरी नगर पालिका</string>
     <string name="residents" translatable="false">प्रिय नगरवासियों,</string>
-    <string name="message" translatable="false">नगर पालिका शिवपुरी नगर की समस्याओं के समाधान एवं नागरिकों के साथ संवाद स्थापित करने के लिए आपके समक्ष मोबाइल एप्प की सुविधा प्रस्तुत है आप अपनी समस्याओं जैसे कचरा, नाली, पानी, सड़क एवं स्ट्रीट लाइट के तत्काल समाधान हेतु एवं टैंकर बुकिंग, सामुदायिक भवन की बूकिंंग इस एप्प के द्वारा कर सकते है </string>
-    <string name="nager_palika_adhikari" translatable="false">मुख्य नगर पालिका अधिकारी</string>
+    <string name="message" translatable="false">नगर पालिका शिवपुरी नगर की समस्याओं के समाधान एवं नागरिकों के साथ संवाद स्थापित करने के लिए आपके समक्ष मोबाइल एप्प की सुविधा प्रस्तुत है आप अपनी समस्याओं जैसे कचरा, नाली, पानी, सड़क एवं स्ट्रीट लाइट के तत्काल समाधान हेतु एवं टैंकर बुकिंग, सामुदायिक भवन बुकिंग की  इस एप्प के द्वारा कर सकते है</string>
+    <string name="nager_palika_adhikari" translatable="false">CMO</string>
     <string name="nager_palika_nigam" translatable="false">नगर पालिका शिवपुरी</string>
     <string name="adhyaksha" translatable="false">अध्यक्ष</string>
     <string name="for_more_info_click_here">For more info click here</string>
@@ -16,4 +16,91 @@
     <string name="title_activity_complaint">Complaint</string>
     <string name="title_activity_tanker_booking">Tanker Booking</string>
     <string name="title_activity_community_hall">Community Hall Booking</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="hindi" translatable="false">hi</string>
+    <!---complaint Registration string below -->
+    <string name="complaint_registration">Complaint Registration</string>
+    <string name="complaint_Information">Complaint Information</string>
+    <string name="complainant_type">Complaint Type</string>
+    <string name="complaint_category">Complaint Category</string>
+    <string name="ward">Ward</string>
+    <string name="location">Location</string>
+    <string name="describe_complaint">Describe Complaint</string>
+    <string name="personal_info">Personal  Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="add1">Address 1</string>
+    <string name="add2">Address 2</string>
+    <string name="area">Area</string>
+    <string name="mobile_no">Mobile/Phone No.</string>
+    <string name="email">Email</string>
+    <string name="pl_notify_string">Please notify me about steps taken by MCS Through</string>
+    <string name="do_not_notify">Do not Notify</string>
+
+    <!-- button string -->
+    <string name="submit">Submit</string>
+    <string name="Reset">Reset</string>
+
+
+    <!-- Tanker Booking String-->
+
+    <string name="preferred_data">Date</string>
+    <string name="preferred_time">Time</string>
+    <string name="taker_type">Tanker Type</string>
+    <string name="no_of_tanker">No of tanker</string>
+    <string name="total_amount">Total amount you have to pay</string>
+    <string name="reason">Reason</string>
+    <string name="name">Name</string>
+    <string name="condition_tanker"> I hereby confirm that I have read and accept the terms and conditions.</string>
+    <string name="category">Category</string>
+    <string name="community_hall">Community Hall</string>
+    <string name="date_to">Date To</string>
+    <string name="date_from">Date From</string>
+    <string name="Reason">Reason</string>
+    <string name="checkbox">please accept the terms and conditions</string>
+    <!--error String-->
+
+    <string name="name_error">Name cannot be empty</string>
+    <string name="address_error">Address cannot be empty</string>
+    <string name="general_error">This field Cannot be empty</string>
+
+    <string name="exit">Exit</string>
+    <string name="exit_msg">Press ok to Exit</string>
+
+    <string name="internetConnection">check your internet connection</string>
+
+
+    <string name="language">LANGUAGE</string>
+   <string-array name="lang">
+       <item>Hindi</item>
+       <item>English</item>
+   </string-array>
+    <string-array name="lang_values">
+        <item>hi</item>
+        <item>en</item>
+    </string-array>
+    <string name="justice_at_shivpuri">All disputes are subject to jurisdiction of shivpuri muncipal council</string>
+    <string name="tanker_avaliable">Tanker delivery is subject matter of availability</string>
+
+    <string-array name="category">
+        <item>General/OBC</item>
+        <item>SC/ST</item>
+    </string-array>
+
+    <string-array name="tanker_type">
+        <item>
+        निजी (250 ₹ प्रति टैंकर )
+        </item>
+        <item>
+            व्यवसायिक (350 ₹ प्रति टैंकर )
+        </item>
+    </string-array>
+
+    <string-array name="community_hall">
+        <item>सामुदायिक भवन 1</item>
+        <item>सामुदायिक भवन 2</item>
+        <item>सामुदायिक भवन 3</item>
+        <item>सामुदायिक भवन 4</item>
+    </string-array>
+    <string name="moblie_error">Write your mobile Number</string>
 </resources>

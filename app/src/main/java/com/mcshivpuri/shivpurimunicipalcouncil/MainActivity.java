@@ -1,5 +1,7 @@
 package com.mcshivpuri.shivpurimunicipalcouncil;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -28,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
     Button complaintButton,tankerButton,communityButton ;
     Locale myLocale;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,10 +107,22 @@ public class MainActivity extends AppCompatActivity {
     {
         if(menuItem.getItemId() == R.id.language)
         {
-            
+            //Intent intent = new Intent(MainActivity.this,Settings.class);
+            //startActivity(intent);
+            setLocale("hi");
+        }
+        if (menuItem.getItemId() == R.id.english) {
+            setLocale("en");
         }
 
         return super.onOptionsItemSelected(menuItem);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        //  setLocale("hi");
+
     }
 
     public void setLocale(String lang) {
@@ -118,7 +134,28 @@ public class MainActivity extends AppCompatActivity {
         conf.locale = myLocale;
         res.updateConfiguration(conf, dm);
         Intent refresh = new Intent(this, MainActivity.class);
-        startActivity(refresh);
+         startActivity(refresh);
+        MainActivity.this.finish();
     }
+
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setTitle(getString(R.string.exit))
+                .setMessage(getString(R.string.exit_msg))
+                .setNegativeButton(android.R.string.no, null)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        MainActivity.super.onBackPressed();
+                    }
+                }).create().show();
+
+    }
+
+
+
+
+
+
+
 
 }

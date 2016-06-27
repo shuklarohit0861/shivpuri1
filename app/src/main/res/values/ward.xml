@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ward">
+        <item >गणेश वार्ड</item>
+        <item>कृष्णपुरम वार्ड</item>
+        <item>मयूर वार्ड </item>
+        <item>फकरुद्दीन अली अहमद वार्ड</item>
+        <item>मंशापूर्ण वार्ड </item>
+        <item>भगत सिंह वार्ड</item>
+        <item>दयानंद वार्ड</item>
+        <item>लक्ष्मी बाई वार्ड</item>
+        <item>पारस नाथ वार्ड</item>
+        <item>सावरकर वार्ड </item>
+        <item>खेड़ापति वार्ड</item>
+        <item>आजाद वार्ड</item>
+        <item>किड़बाई वार्ड</item>
+        <item>शिवाजी वार्ड</item>
+        <item>तिलक वार्ड </item>
+        <item>राजीव गांधी वार्ड</item>
+        <item>सिद्धेश्वर वार्ड </item>
+        <item>हनुमान वार्ड</item>
+        <item>तात्याटोपे वार्ड</item>
+        <item>श्रीराम वार्ड</item>
+        <item>अरविन्द वार्ड</item>
+        <item>सरदार बल्लभ भाई पटेल</item>
+        <item>शाश्त्री वार्ड</item>
+        <item>शांत कबीर वार्ड</item>
+        <item>राजेंद्र प्रशाद वार्ड</item>
+        <item>मुखर्जी वार्ड</item>
+        <item>महाराणा प्रताप वार्ड</item>
+        <item>विवेकानंद वार्ड</item>
+        <item>अम्बेडकर वार्ड</item>
+        <item>गांधी पार्क वार्ड</item>
+        <item>महावीर वार्ड</item>
+        <item>बजरंग वार्ड</item>
+        <item>दीनदयाल वार्ड</item>
+        <item>रामकृष्ण  वार्ड</item>
+        <item>विष्णु वार्ड </item>
+        <item>इंद्रा गांधी वार्ड</item>
+        <item>मोती बाबा वार्ड</item>
+        <item>ज़ाकिर हुसैन वार्ड</item>
+    </string-array>
+</resources>
