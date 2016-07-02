@@ -21,7 +21,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/newshivpuriheade"
+                android:src="@drawable/shivpuri_logo"
                 android:scaleType="fitCenter"/>
 
             <android.support.design.widget.TextInputLayout

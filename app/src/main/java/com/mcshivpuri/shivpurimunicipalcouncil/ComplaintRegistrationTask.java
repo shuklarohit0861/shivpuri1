@@ -48,7 +48,7 @@ public class ComplaintRegistrationTask extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... params) {
         String response = "-1";
 
-        String insertDBURL = "http://mchoshangabad.com/app/ComplaintRegAct.PHP";
+        String insertDBURL = "http:///ComplaintRegAct.PHP";
 
 
         String ComplaintType = params[0];

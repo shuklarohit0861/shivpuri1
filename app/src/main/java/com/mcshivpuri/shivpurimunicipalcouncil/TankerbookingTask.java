@@ -45,7 +45,7 @@ public class TankerbookingTask extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... params) {
         String response = "-1";
 
-        String insertDBURL = "";
+        String insertDBURL = "http://";
 
 
         String Name = params[0];

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name" translatable="false">आपका शिवपुरी</string>
-    <string name="title_activity_main" translatable="false">शिवपुरी नगर पालिका</string>
+    <string name="app_name" translatable="false">नगर पालिक शिवपुरी </string>
+    <string name="title_activity_main" translatable="false">नगर पालिक शिवपुरी ा</string>
     <string name="residents" translatable="false">प्रिय नगरवासियों,</string>
     <string name="message" translatable="false">नगर पालिका शिवपुरी नगर की समस्याओं के समाधान एवं नागरिकों के साथ संवाद स्थापित करने के लिए आपके समक्ष मोबाइल एप्प की सुविधा प्रस्तुत है आप अपनी समस्याओं जैसे कचरा, नाली, पानी, सड़क एवं स्ट्रीट लाइट के तत्काल समाधान हेतु एवं टैंकर बुकिंग, सामुदायिक भवन बुकिंग की  इस एप्प के द्वारा कर सकते है</string>
     <string name="nager_palika_adhikari" translatable="false">CMO</string>
